@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+
+
+html {
+  
+    box-sizing: border-box ;
+    --parent-height : 20em ;
+    --duration: 1s ;
+    --duration-text-wrap: 12s 1.5s cubic-bezier(0.82, 0.82, 1, 1.01) ;
+    --cubic-header: var(--duration) cubic-bezier(0.71, 0.21, 0.3, 0.95) ;
+    --cubic-slider : var(--duration) cubic-bezier(0.4, 0, 0.2, 1) ;
+    --cubic-play-list : .35s var(--duration) cubic-bezier(0, 0.85, 0.11, 1.64) ;
+    --cubic-slider-context : cubic-bezier(1, -0.01, 1, 1.01) ;
+    
+}
+
+body{
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.b__1{
+    background-color: pink;
+}
+
+.b__2{
+    background-color: cyan;
+}
+
+.b__3{
+    background-color: lightgreen;
+}
+
+.b__4{
+    background-color: yellow;
+}
+
+.b__5{
+    background-color: orange;
+}
+
+
+.showcase-arrow{
+    position: absolute;
+    left: 40vw;
+    z-index: 100;
+}
+.title{
+    position: absolute;
+    width: max-content;
+    height: max-content;
+}
+
+.title a{
+    font-family: 'Odibee Sans', cursive;
+    font-size: 60px;
+    list-style-type: none;
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.vector{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    left: 4vw;
+    top: 25vh;   
+}
+
+.vector img{
+    width: 30em;
+    height: 30em;
+}
+
+.list__items{
+    position: absolute;
+    left: 50vw;
+    top: 23vh;
+}
+
+.list__items li{
+    font-family: 'Odibee Sans', cursive;
+    font-size: 4em;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.list__items li a{
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.list__items__1{
+    position: absolute;
+    left: 50vw;
+    top: 23vh;
+}
+
+.list__items__1 li{
+    font-family: 'Odibee Sans', cursive;
+    font-size: 4em;
+    text-decoration: none;
+    list-style: none;
+    color: #73266b;
+
+}
+
+.list__items__1 li a{
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.list__items__2{
+    position: absolute;
+    left: 50vw;
+    top: 28vh;
+}
+
+.list__items__2 li{
+    font-family: 'Odibee Sans', cursive;
+    font-size: 4em;
+    text-decoration: none;
+    list-style: none;
+    color: #263573;
+
+}
+
+.list__items__2 li a{
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.list__items__3{
+    position: absolute;
+    left: 50vw;
+    top: 38vh;
+}
+
+.list__items__3 li{
+    font-family: 'Odibee Sans', cursive;
+    font-size: 4em;
+    text-decoration: none;
+    list-style: none;
+    color: #165425;
+
+}
+
+.list__items__3 li a{
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.list__items__4{
+    position: absolute;
+    left: 50vw;
+    top: 55vh;
+}
+
+.list__items__4 li{
+    font-family: 'Odibee Sans', cursive;
+    font-size: 4em;
+    text-decoration: none;
+    list-style: none;
+    color: #454d0a;
+
+}
+
+.list__items__4 li a{
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.list__items__5{
+    position: absolute;
+    left: 50vw;
+    top: 60vh;
+}
+
+.list__items__5 li{
+    font-family: 'Odibee Sans', cursive;
+    font-size: 4em;
+    text-decoration: none;
+    list-style: none;
+    color: #82261b;
+
+}
+
+.list__items__5 li a{
+    text-decoration: none;
+    color: inherit;
+
+}
